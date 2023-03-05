@@ -17,10 +17,3 @@ try:
                 indent_increase=True
 except KeyboardInterrupt:
     sys.exit()
-
-
-
-
-
-
-

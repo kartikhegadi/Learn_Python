@@ -1,7 +1,16 @@
-def kart():
-    eggs=''
-    eggs='spam'
-    eggs='global'
-kart()
-global eggs
+def spam():
+    global eggs
+    eggs = 'spam'  # this is the global
+
+
+def becon():
+    eggs = 'bacon'  # this is the local
+
+
+def ham():
+    print(eggs)  # this is the global
+
+
+eggs = 42  # this is the global
+spam()
 print(eggs)

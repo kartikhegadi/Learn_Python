@@ -5,6 +5,7 @@ while True:
     if name=='':
         break
     catnames=catnames+[name]
+
 print('The cat names are')
 for name in  catnames:
     print(''+name)
